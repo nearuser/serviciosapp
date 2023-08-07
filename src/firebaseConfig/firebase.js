@@ -5,15 +5,13 @@ import { getStorage, ref, uploadBytes } from "@firebase/storage";
 
 // datos del proyecto shootinpatagonia
 const firebaseConfig = {
-  apiKey: "AIzaSyDEoYq5IM60CDO3haQL1IfyP2UGduYbiLQ",
-  authDomain: "bd-shootinpatagonia0.firebaseapp.com",
-  projectId: "bd-shootinpatagonia0",
-  storageBucket: "bd-shootinpatagonia0.appspot.com",
-  messagingSenderId: "183145421615",
-  appId: "1:183145421615:web:c075df797678e8f7979fda",
-  measurementId: "G-K61N8YLPKH"
+  apiKey: "AIzaSyBX0IoK7wxm0fK96nk5ZYN6QpYL7x0PtSE",
+  authDomain: "shoot-in-patagonia.firebaseapp.com",
+  projectId: "shoot-in-patagonia",
+  storageBucket: "shoot-in-patagonia.appspot.com",
+  messagingSenderId: "1063465965867",
+  appId: "1:1063465965867:web:f4ff8faa2e9597b60f4d6e"
 };
-
 // inicializamos Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
